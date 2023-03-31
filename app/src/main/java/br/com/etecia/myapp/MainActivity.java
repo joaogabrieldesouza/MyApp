@@ -1,8 +1,12 @@
 package br.com.etecia.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.appbar.MaterialToolbar;
 
@@ -18,5 +22,21 @@ public class MainActivity extends AppCompatActivity {
 
         //Apresentando o xml para o java
         idToolBar = findViewById(R.id.idToolBar);
+
+        //Criando clique no menu de navagação
+        idToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "cliquei no menu hamburguer",Toast.LENGTH_SHORT).show();
+            }
+        });
+        //criando clique nos itens do menu]
+
+        idToolBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                return false;
+            }
+        });
     }
 }
