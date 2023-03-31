@@ -54,10 +54,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.mSair:
                         Toast.makeText(getApplicationContext(), "cliquei no Sair", Toast.LENGTH_SHORT).show();
                         break;
-
                 }
 
-                return false;
+                return true;
             }
         });
     }
