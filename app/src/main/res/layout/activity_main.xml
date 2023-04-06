@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/idToolBar"
-            app:navigationIcon="@drawable/vector_menu"
-            app:menu="@menu/menu"/>
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu"
+        app:navigationIcon="@drawable/vector_menu" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
