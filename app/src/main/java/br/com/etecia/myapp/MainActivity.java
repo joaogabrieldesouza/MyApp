@@ -13,6 +13,10 @@ import com.google.android.material.appbar.MaterialToolbar;
 public class MainActivity extends AppCompatActivity {
     //declarando variavel global que ira representar o xml no java
 
+    public MaterialToolbar getIdToolBar() {
+        return idToolBar;
+    }
+
     MaterialToolbar idToolBar;
 
     @Override

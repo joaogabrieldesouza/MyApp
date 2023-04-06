@@ -9,21 +9,21 @@
     <item
         android:id="@+id/mBuscar"
         android:icon="@drawable/vector_search"
-        android:title="Search"
+        android:title="Buscar"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mCompartilhar"
         android:icon="@drawable/vector_share"
-        android:title="Share"
+        android:title="Compartilhar"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mSair"
         android:icon="@drawable/vector_exit"
-        android:title="Exit"
+        android:title="Sair"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mSalvar"
         android:icon="@drawable/vector_save"
-        android:title="Save"
+        android:title="Salva"
         app:showAsAction="ifRoom" />
 </menu>
