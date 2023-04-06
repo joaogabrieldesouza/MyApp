@@ -21,6 +21,7 @@
         android:src="@drawable/baseline_add"
         android:id="@+id/idFAB"
         app:layout_anchor="@id/idBottomBar"
+        android:contentDescription="Butão de navegação"
         />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
