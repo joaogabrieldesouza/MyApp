@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(),BottomNavActivity.class));
                         break;
                     case R.id.mBuscar:
-                        Toast.makeText(getApplicationContext(), "cliquei no Buscar", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),BottomNavigationActivity.class));
                         break;
                     case R.id.mCompartilhar:
                         Toast.makeText(getApplicationContext(), "cliquei no Compartilhar", Toast.LENGTH_SHORT).show();

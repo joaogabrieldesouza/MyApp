@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Musica"
+        android:icon="@drawable/baseline_music"
+        android:id="@+id/mNavMusic"
+        />
+    <item android:title="Lugares"
+        android:icon="@drawable/baseline_place"
+        android:id="@+id/mNavPlaces"
+        />
+    <item android:title="Noticias"
+        android:icon="@drawable/baseline_newspaper"
+        android:id="@+id/mNavNews"
+        />
+    <item android:title="Favoritos"
+        android:icon="@drawable/vector_fav"
+        android:id="@+id/mNavFav"
+        />
+
+</menu>
